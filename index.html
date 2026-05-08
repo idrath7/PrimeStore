@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <title>PrimeStore</title>
+</head>
+<body class="scroll-smooth">
+
+  <header>
+                            <!--Top PrimeStore bar-->
+    <div class="h-14 bg-[#2B2A2A] text-white flex items-center justify-center px-6 font-bold">
+      PrimeStore
+    </div>
+
+                                  <!--navbar-->
+    <div class="h-16 bg-white flex items-center justify-between px-10">
+      
+                                 <!--left side-->
+      <div class="flex items-center gap-10">
+        <h1 class="text-xl font-extrabold text-gray-800">
+          PrimeStore
+        </h1>
+
+        <nav class="flex items-center gap-7 text-sm font-medium">
+          <a href="#products" class="text-sm text-slate-700">Products</a>
+          <a href="#reviews" class="text-sm text-slate-700">Reviews</a>
+          <a href="#contact" class="text-sm text-slate-700">Contact</a>
+        </nav>
+      </div>
+
+                              <!--right side-->
+                    
+      <div class="flex items-center gap-6">
+            <div class="bg-gray-100 rounded-full px-5 py-1 text-sm font-semibold text-gray-700 flex items-center gap-2">
+            <span><i class="fa-solid fa-money-check-dollar"></i></span>
+            <span>৳2000.00</span>
+      </div>
+
+        <button class="text-2xl text-gray-800 hover:text-black">
+            <i class="fa-solid fa-cart-arrow-down"></i>
+        </button>
+      </div>
+ </div>
+                               <!--image1-->          
+  <section class="relative w-full h-[720px] overflow-hidden">
+  <img src="./image1.png" class="w-full h-full object-top" alt="PrimeStore Banner">
+
+  <div class="absolute inset-0 bg-black/45"></div>
+
+  <div class="absolute inset-0 flex flex-col items-center justify-center text-center">
+    <h1 class="text-4xl font-extrabold text-yellow-300 tracking-wide">
+      WELCOME TO OUR STORE
+    </h1>
+
+    <p class="mt-5 text-lg font-bold text-white">
+      ENJOY SHOPPING FROM OUR SELECTION OF HANDPICKED ITEMS
+    </p>
+  </div>
+</section>
+</header>
+
+ <section id="products" class="bg-gray-50 py-20">
+       <div class="max-w-7xl mx-auto px-6">
+           
+<section class="bg-gray-50 py-20">
+  <div class="max-w-7xl mx-auto px-10">
+
+    <div class="flex items-center justify-between 50px">
+      <div>
+        <h2 class="text-3xl font-bold text-slate-900">
+          OUR PRODUCTS
+        </h2>
+        <p class="mt-2 text-sm text-gray-500">
+          Quality essentials for every occasion.
+        </p>
+      </div>
+                <!--for searching products-->
+      <div class="relative">
+  <i class="fa-solid fa-magnifying-glass absolute left-3 top-1/2 -translate-y-1/2 text-gray-500 text-sm"></i>
+
+  <input
+    type="text"
+    placeholder="Search products..."
+    class="h-10 w-64 rounded bg-gray-200 pl-10 pr-4 text-sm outline-none placeholder:text-gray-500"
+  />
+</div>
+          <!--for price selecting-->     
+<select class="h-10 w-40 rounded bg-gray-200 px-4 text-sm outline-none">
+  <option>Sort By</option>
+  <option>Price: Low to High</option>
+  <option>Price: High to Low</option>
+</select>
+           <!--for adding money--> 
+<button class="h-10 rounded bg-slate-900 px-5 text-sm font-bold text-white">
+  +Add Money(+1000)
+  </button>
+</section>
+
+                 <!--showing products-->
+             <!--------Men's products-------->         
+    <div class="grid grid-cols-4 gap-8">
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        MEN'S CLOTHING
+      </span>
+
+      <img
+        src="bag.png"
+        alt="Bag"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      Fjallraven - Foldsack No. 1 Backpac...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★</span>
+      <span class="text-gray-300">★</span>
+      <span class="ml-2 text-xs text-gray-400">(120)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳12644.25</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        MEN'S CLOTHING
+      </span>
+
+      <img
+        src="shirt-1(men).png"
+        alt="Shirt"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      Mens Casual Premium Slim Fit T-...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★</span>
+      <span class="text-gray-300">★</span>
+      <span class="ml-2 text-xs text-gray-400">(259)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳2564.50</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        MEN'S CLOTHING
+      </span>
+
+      <img
+        src="Jacket(men).png"
+        alt="Jacket"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      Mens Cotton Jacket
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(500)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳6438.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        MEN'S CLOTHING
+      </span>
+
+      <img
+        src="shirt-2(men).png"
+        alt="Blue Shirt"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      Mens Casual Slim Fit
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★</span>
+      <span class="text-gray-300">★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(430)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳1838.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+</div>
+                 <!--------women's products-------->     
+<div class="grid grid-cols-4 gap-8">
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        WOMEN'S CLOTHING
+      </span>
+
+      <img
+        src="Jacket(women).png"
+        alt="Jacket(women)"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+     Rain Jacket Women Windbreaker...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★</span>
+      <span class="text-gray-300">★</span>
+      <span class="ml-2 text-xs text-gray-400">(679)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳4598.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        WOMEN'S CLOTHING
+      </span>
+
+      <img
+        src="shirt-1(women).png"
+        alt="Shirt-2"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      MBJ Women's Solid Short Sleeve Boat...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(130)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳1132.75</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        WOMEN'S CLOTHING
+      </span>
+
+      <img
+        src="shirt-2(women).png"
+        alt="shirt-2(women)"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+     Opna Women's Short Sleeve Moisture
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(146)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳914.25</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        WOMEN'S CLOTHING
+      </span>
+
+      <img
+        src="combo(women).png"
+        alt="combo(women)"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+        DANVOUY Womens T Shirt Casual...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★</span>
+      <span class="text-gray-300">★</span>
+      <span class="ml-2 text-xs text-gray-400">(145)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳1493.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+</div>
+
+       <!--------electronics products-------->
+    <div class="grid grid-cols-4 gap-8">
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+          ELECTRONICS
+      </span>
+
+      <img
+        src="electronics-1.png"
+        alt="electronics-1"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      SanDisk SSD PLUS 1TB Internal SSD...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★</span>
+      <span class="text-gray-300">★★</span>
+      <span class="ml-2 text-xs text-gray-400">(470)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳12535.00</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        ELECTRONICS
+      </span>
+
+      <img
+        src="electronics-2.png"
+        alt="electronics-2"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      WD 4TB Gaming Drive Works with...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(400)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳13110.00</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+         ELECTRONICS
+      </span>
+
+      <img
+        src="electronics-3.png"
+        alt="electronics-3"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+     Samsung 49-Inch CHG90 144Hz...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★</span>
+       <span class="text-gray-300">★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(140)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳114998.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+         ELECTRONICS
+      </span>
+
+      <img
+        src="electronics-4.png"
+        alt="electronics-4"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+     Acer SB220Q bi 21.5 inches Full HD...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★</span>
+      <span class="text-gray-300">★★</span>
+      <span class="ml-2 text-xs text-gray-400">(250)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳68885.00</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+</div>
+
+    <!--------jewellery products-------->
+    <div class="grid grid-cols-4 gap-8">
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+          JEWELLERY
+      </span>
+
+      <img
+        src="jewellery-1.png"
+        alt="jewellery-1"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      John Hardy Women's Legends Naga...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(400)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳79925.00</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        JEWELLERY
+      </span>
+
+      <img
+        src="jewellery-2.png"
+        alt="jewellery-2"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+       Solid Gold Petite Micropave
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★★</span>
+      <span class="text-gray-300">★</span>
+      <span class="ml-2 text-xs text-gray-400">(70)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳19320.00</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+        JEWELLERY
+      </span>
+
+      <img
+        src="jewellery-3.png"
+        alt="jewellery-3"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+       White Gold Plated Princess
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★★</span>
+       <span class="text-gray-300">★★</span>
+      <span class="ml-2 text-xs text-gray-400">(400)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳1148.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+
+  <div class="border border-gray-200 bg-white p-5">
+    <div class="relative bg-gray-50">
+      <span class="absolute left-3 top-3 bg-slate-900 px-3 py-1 text-xs font-bold text-white">
+         JEWELLERY
+      </span>
+
+      <img
+        src="jewellery-4.png"
+        alt="jewellery-4"
+        class="h-64 w-full object-contain"
+      />
+    </div>
+
+    <h3 class="mt-5 text-sm font-bold text-slate-900">
+      Pierced Owl Rose Gold Plated...
+    </h3>
+
+    <div class="mt-2 flex items-center gap-1 text-sm">
+      <span>★★</span>
+      <span class="text-gray-300">★★★</span>
+      <span class="ml-2 text-xs text-gray-400">(101)</span>
+    </div>
+
+    <div class="mt-3 flex items-center justify-between">
+      <p class="text-xl font-bold text-slate-900">৳1263.85</p>
+      <button class="h-9 w-9 border border-slate-900 text-xl">+</button>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+                        <!---reviews--->
+<section id="reviews" class="bg-zinc-800 h-52 flex items-center justify-center">
+  <h2 class="text-3xl font-bold text-white">
+    CLIENT TESTIMONIALS
+  </h2>
+</section>
+
+                     <!---contacts--->  
+
+<section id="contact" class="scroll-mt-24 bg-gray-50 py-20">
+  <div class="max-w-4xl mx-auto px-6">
+    <div class="text-center flex flex-col items-center gap-3 pb-12">
+      <h2 class="text-3xl font-bold text-slate-900">
+        GET IN TOUCH
+      </h2>
+      <p class="text-gray-500">
+        Have a question? We'd love to hear from you.
+      </p>
+    </div>
+
+                      <!-- Form -->
+    <form class="flex flex-col gap-6">
+      
+                    <!-- Name + Email -->
+
+      <div class="grid grid-cols-2 gap-6">
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-bold tracking-widest text-gray-500">
+            NAME
+          </label>
+          <input
+            type="text"
+            class="h-12 w-full rounded bg-gray-200 px-4 outline-none"
+          />
+        </div>
+
+        <div class="flex flex-col gap-2">
+          <label class="text-xs font-bold tracking-widest text-gray-500">
+            EMAIL
+          </label>
+          <input
+            type="email"
+            class="h-12 w-full rounded bg-gray-200 px-4 outline-none"
+          />
+        </div>
+      </div>
+
+                         <!-- Message -->
+      <div class="flex flex-col gap-2">
+        <label class="text-xs font-bold tracking-widest text-gray-500">
+          MESSAGE
+        </label>
+        <textarea
+          class="h-40 w-full rounded bg-gray-200 p-4 outline-none"
+        ></textarea>
+      </div>
+
+                         <!-- Button -->
+      <button
+        type="submit"
+        class="h-14 w-full bg-zinc-900 text-sm font-bold  text-white">
+        SEND MESSAGE
+      </button>
+    </form>
+   </div>
+</section>
+        
+            
+                         <!-- Footer -->
+
+  <footer class="bg-zinc-800 py-10 text-white">
+  <div class="max-w-6xl mx-auto px-6 grid grid-cols-4 gap-10">
+
+    <div>
+      <h3 class="font-bold mb-3">Get to Know Us</h3>
+      <ul class="space-y-2 text-sm">
+        <li>Careers</li>
+        <li>Blog</li>
+        <li>About PrimeStore</li>
+        <li>Investor Relations</li>
+        <li>PrimeStore Devices</li>
+        <li>PrimeStore Science</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-3">Make Money with Us</h3>
+      <ul class="space-y-2 text-sm">
+        <li>Sell products on PrimeStore</li>
+        <li>Sell on PrimeStore</li>
+        <li>Sell apps on PrimeStore</li>
+        <li>Become an Affiliate</li>
+        <li>Advertise Your Products</li>
+        <li>Self-Publish with Us</li>
+        <li>Host an PrimeStore Hub</li>
+        <li>See More Make Money with Us</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-3">PrimeStore Payment Products</h3>
+      <ul class="space-y-2 text-sm">
+        <li>PrimeStore Business Card</li>
+        <li>Shop with Points</li>
+        <li>Reload Your Balance</li>
+        <li>PrimeStore Currency Converter</li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="font-bold mb-3">Let Us Help You</h3>
+      <ul class="space-y-2 text-sm">
+        <li>Your Account</li>
+        <li>Your Orders</li>
+        <li>Shipping Rates & Policies</li>
+        <li>Returns & Replacements</li>
+        <li>Manage Your Content and Devices</li>
+        <li>Help</li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
